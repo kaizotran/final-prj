@@ -1,0 +1,69 @@
+h1.title {
+    text-align: center;
+}
+
+.meme {
+    display: flex;
+    margin-top: 20px;
+}
+
+.meme .vote {
+    display: flex;
+    flex-direction: column;
+}
+
+.meme .vote button {
+    padding: 10px 10px 8px;
+    font-size: 20px;
+}
+
+.meme .vote .score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.meme .content {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+.meme .content img {
+    max-width: 70%;
+}
+
+.create-post {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    width: 50%;
+    height: 70px;
+    padding: 5px;
+    align-items: center;
+}
+
+.create-post input {
+    flex-grow: 1;
+    height: 80%;
+    font-size: 1.5em;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0 0.5);
+}
+
+.create-post button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.create-post button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 0.5);
+}
+
+.create-post i {
+    font-size: 2em;
+}
