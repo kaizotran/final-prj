@@ -13,8 +13,8 @@ h1.title {
 }
 
 .meme .vote button {
-    padding: 10px 10px 8px;
-    font-size: 20px;
+    padding: 5px 5px 4px;
+    font-size: 10px;
 }
 
 .meme .vote .score {
@@ -29,7 +29,7 @@ h1.title {
 }
 
 .meme .content img {
-    max-width: 70%;
+    max-width: 50%;
 }
 
 .create-post {
